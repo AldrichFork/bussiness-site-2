@@ -1,0 +1,346 @@
+
+.index-banner {
+    margin: 0 auto;
+    width: 1920px;
+    height: 894px;
+    background: url("../images/index-banner-bg.jpg") no-repeat;
+}
+
+.index-banner img {
+    float: left;
+    margin-left: 100px;
+}
+
+.index-banner p {
+    float: left;
+    margin-left: 40px;
+    margin-top: 168px;
+    text-align: center;
+    font-size: 56px;
+    color: #bcbfc2;
+}
+
+.index-banner span {
+    display: block;
+    font-size: 32px;
+}
+
+.index-content-title {
+    padding-top: 100px;
+    font-size: 39px;
+    text-align: center;
+}
+
+.index-content-info {
+    margin-top: 66px;
+    padding: 0 28px;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+.index-content-1 {
+    height: 836px;
+    background-color: #e3ecf2;
+    color: #6bc2e6;
+}
+
+.index-content-1 .index-content-1-item {
+    float: left;
+    margin-top: 106px;
+    margin-right: 116px;
+    width: 194px;
+    height: 324px;
+    box-shadow: 0 0 10px #adb8c0;
+    background-color: #fff;
+}
+
+.index-content-1 .index-content-1-item:first-child {
+    margin-left: 40px;
+}
+
+.index-content-1 .index-content-1-item:last-child {
+    margin-right: 0;
+}
+
+.index-content-1 .index-content-1-item img {
+    margin-top: 14px;
+    margin-left: 38px;
+    margin-bottom: 14px;
+    width: 110px;
+    border-radius: 50%;
+}
+
+.index-content-1 .index-content-1-item h3 {
+    text-align: center;
+    border-top: 1px solid #d1d3d3;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 78px;
+}
+
+.index-content-1 .index-content-1-item p {
+    width: 142px;
+    margin: 0 auto;
+    font-size: 13px;
+    line-height: 1.6;
+    color: #666666;
+}
+
+
+
+
+
+
+.index-content-2 {
+    height: 1010px;
+    color: #666666;
+    background-color: #adb8c0;
+}
+
+.index-content-2 .hexagon-group {
+    position: relative;
+    width: 1200px;
+    margin: 100px auto;
+}
+
+.index-content-2 .lineF, .index-content-2 .lineS, .index-content-2 .lineT
+{
+    position: absolute;
+    visibility: hidden;
+}
+
+.index-content-2 .lineF {
+
+}
+
+.index-content-2 .lineS
+{
+    top: 170px;
+    left: 130px;
+}
+
+.index-content-2 .lineT {
+    top: 340px;
+}
+
+.index-content-2 .boxF, .index-content-2 .boxS, .index-content-2 .boxT, .index-content-2 .overlay
+{
+    width: 220px;
+    height: 260px;
+    overflow: hidden;
+}
+
+.index-content-2 .boxF, .index-content-2 .boxS, .index-content-2 .boxT {
+    box-shadow: 0 10px 10px #000;
+}
+
+.index-content-2 .boxF, .index-content-2 .boxS
+{
+    visibility: hidden;
+}
+
+.index-content-2 .boxF
+{
+    transform: rotate(120deg);
+    float: left;
+    margin-left: 50px;
+    -ms-transform: rotate(120deg);
+    -moz-transform: rotate(120deg);
+    -webkit-transform: rotate(120deg);
+}
+
+.index-content-2 .boxF:first-child {
+    margin-left: 10px;
+}
+
+.index-content-2 .boxS
+{
+    transform: rotate(-60deg);
+    -ms-transform: rotate(-60deg);
+    -moz-transform: rotate(-60deg);
+    -webkit-transform: rotate(-60deg);
+}
+.index-content-2 .boxT
+{
+    transform: rotate(-60deg);
+    background: no-repeat 50% center;
+    background-size: 125% auto;
+    -ms-transform: rotate(-60deg);
+    -moz-transform: rotate(-60deg);
+    -webkit-transform: rotate(-60deg);
+    visibility: visible;
+}
+.index-content-2 .overlay
+{
+    transition: all 250ms ease-in-out 0s;
+    display: none;
+    position: relative;
+}
+.index-content-2 .overlay:hover
+{
+    background-color: rgba(0,0,0,0.6);
+}
+.index-content-2 .boxT:hover .overlay
+{
+    display: block;
+}
+
+
+
+
+
+
+
+.index-content-3 {
+    height: 894px;
+    background-color: #94bade;
+    color: #fff;
+}
+
+.index-content-3 .index-content-info {
+    margin-top: 66px;
+    margin-bottom: 106px;
+    padding: 0 28px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.index-content-3 .index-content-3-items {
+    margin-bottom: 46px;
+}
+
+.index-content-3 .index-content-3-pics {
+    float: left;
+    margin-right: 60px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #787575;
+}
+
+.index-content-3 .index-content-3-pics:first-child {
+    margin-left: 12px;
+}
+
+.index-content-3 .index-content-3-pics:last-child {
+    margin-right: 12px;
+}
+
+.index-content-3 .content-3-btn-bar {
+    float: left;
+    margin-top: 38px;
+    margin-left: 584px;
+    width: 56px;
+}
+
+.index-content-3 .content-3-btn {
+    float: left;
+    margin-left: 16px;
+}
+
+.index-content-3 .content-3-btn:first-child {
+    margin-left: 0;
+}
+
+.index-content-3 .content-3-btn a {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.index-content-3 .active a {
+    background-color: #d1d1d1;
+}
+
+.index-content-4 {
+    height: 990px;
+    color: #666666;
+}
+
+.index-content-4 .box
+{
+    position: relative;
+    width: 1200px;
+    margin: 100px auto;
+}
+
+
+
+
+
+
+
+
+
+.index-content-4 .lineF, .index-content-4 .lineS, .index-content-4 .lineT
+{
+    position: absolute;
+    visibility: hidden;
+}
+
+.index-content-4 .lineF {
+    left: 100px;
+}
+
+.index-content-4 .lineS
+{
+    top: 170px;
+}
+
+.index-content-4 .lineT {
+    left: 100px;
+    top: 340px;
+}
+
+.index-content-4 .boxF, .index-content-4 .boxS, .index-content-4 .boxT, .index-content-4 .overlay
+{
+    width: 180px;
+    height: 208px;
+    overflow: hidden;
+}
+.index-content-4 .boxF, .index-content-4 .boxS
+{
+    visibility: hidden;
+}
+.index-content-4 .boxF
+{
+    transform: rotate(120deg);
+    float: left;
+    margin-left: 20px;
+    -ms-transform: rotate(120deg);
+    -moz-transform: rotate(120deg);
+    -webkit-transform: rotate(120deg);
+}
+.index-content-4 .boxS
+{
+    transform: rotate(-60deg);
+    -ms-transform: rotate(-60deg);
+    -moz-transform: rotate(-60deg);
+    -webkit-transform: rotate(-60deg);
+}
+.index-content-4 .boxT
+{
+    transform: rotate(-60deg);
+    background: no-repeat 50% center;
+    background-size: 125% auto;
+    -ms-transform: rotate(-60deg);
+    -moz-transform: rotate(-60deg);
+    -webkit-transform: rotate(-60deg);
+    visibility: visible;
+}
+.index-content-4 .overlay
+{
+    transition: all 250ms ease-in-out 0s;
+    display: none;
+    position: relative;
+}
+.index-content-4 .overlay:hover
+{
+    background-color: rgba(0,0,0,0.6);
+}
+.index-content-4 .boxT:hover .overlay
+{
+    display: block;
+}
+

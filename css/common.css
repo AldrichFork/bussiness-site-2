@@ -1,0 +1,99 @@
+
+.public-W1200-container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.public-header {
+    height: 70px;
+}
+
+.public-header .public-header-logo {
+    float: left;
+    margin-left: 82px;
+    height: 70px;
+}
+
+.public-header .public-header-logo img {
+    margin-top: 18px;
+    width: 114px;
+    height: 56px;
+}
+
+.public-header .public-header-nav {
+    float: left;
+    margin-left: 132px;
+    height: 70px;
+    width: 400px;
+    font-size: 14px;
+}
+
+.public-header .public-header-nav .public-header-nav-btn {
+    float: left;
+    margin-right: 46px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 70px;
+}
+
+.public-header .public-header-nav .public-header-nav-btn:last-child {
+    margin-right: 0;
+}
+
+.public-header .public-header-tel {
+    float: left;
+    margin-left: 34px;
+    margin-right: 10px;
+}
+
+.public-header .public-header-tel img {
+    display: inline-block;
+    float: left;
+    margin-top: 30px;
+    width: 17px;
+    height: 17px;
+}
+
+.public-header .public-header-tel p {
+    float: left;
+    margin-top: 32px;
+    margin-left: 2px;
+    font-size: 11px;
+}
+
+.public-header .public-header-try-btn {
+    float: left;
+    margin-left: 12px;
+    margin-top: 22px;
+    width: 94px;
+    height: 30px;
+    border:  1px solid #00a0e9;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 30px;
+    color: #00a0e9;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.public-header .change-lan {
+    float: left;
+    margin-left: 20px;
+    margin-top: 34px;
+    font-size: 12px;
+}
+
+.public-footer {
+    height: 70px;
+    background-color: #00a0e9;
+    text-align: center;
+
+}
+
+.public-footer p {
+    line-height: 70px;
+    font-size: 20px;
+    color: gold;
+    font-weight: bold;
+}
+
